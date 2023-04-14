@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        x = 20
+        test = (x = x) ? "even" : "odd";
+        document.write(test)
+        document.write("<br>")
+
+        test = (x % 2 == 0) ? "even" : "odd";
+        document.write(test)
+        document.write("<br>")
+
+        y = 13
+        test1 = (y % 2 == 0) ? "even" : "odd"
+        document.write(test1)
+        console.log(typeof(test1))
+    </script>
+</body>
+
+</html>

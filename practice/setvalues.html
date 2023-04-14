@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, fugit cupiditate. Ipsam quae nemo laudantium vel cumque tempora voluptate dignissimos necessitatibus, quia beatae non minus repellat odit delectus impedit fugiat.</p>
+    <h1 id="h1"> heading1</h1>
+    <a href="test.html" target="_blank" id="al">link</a>
+    <img src="x.jpg" alt="no img" height="100px" width="100px" id="i1">
+    <input type="text" id="inp" value="hello">
+
+
+    <script>
+        // document.getElementById("para").innerHTML = "this is para"
+        document.getElementById("h1").innerHTML = "change h1"
+        document.getElementById("al").innerHTML = "open "
+
+        document.getElementById("i1").alt = "best img"
+        document.getElementById("inp").value = "test"
+        alert(document.getElementById("para").innerHTML)
+        document.getElementById("inp").type = "number"
+    </script>
+</body>
+
+</html>

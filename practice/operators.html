@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        x = 55
+        y = 5
+        z = 98
+        document.write(x + y)
+        document.write("<br>")
+        document.write(x + y + z)
+        document.write("<br>")
+        document.write(x - y)
+        document.write("<br>")
+        document.write(y * x)
+        document.write("<br>")
+        document.write(y / x)
+        document.write("<br>")
+        document.write(y % x)
+        document.write("<br>")
+        document.write(++x)
+        document.write("<br>")
+        document.write(x++)
+        document.write("<br>")
+        document.write(x)
+        document.write("<br>")
+        document.write(--y)
+        document.write("<br>")
+        document.write("<br>")
+        document.write(x > y) ? "true" : "false";
+        document.write("<br>")
+        document.write(x < y) ? "true" : "false";
+        document.write("<br>")
+        document.write(z === y) ? "true" : "false";
+        document.write("<br>")
+        document.write(y > z) ? "true" : "false";
+        document.write("<br>")
+
+        dev = (x > y && x > z) ? x : (y > z) ? y : z;
+        document.write(dev)
+        document.write("<br>")
+
+        a = 40
+        b = 10
+        c = 20
+        ma = (a > b || a < c) ? a : (b > c) ? b : c;
+        ma = (b > a && b > c) ? a : !(a > c) ? b : c;
+        document.write(ma)
+    </script>
+</body>
+
+</html>

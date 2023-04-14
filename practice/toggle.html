@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            color: red;
+            font-size: 30px;
+        }
+        
+        .y {
+            display: none;
+        }
+        /* #kd {
+            display: none;
+        } */
+        
+        .z {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="hed">heading1</h1>
+    <button onclick="hemant()">add color</button>
+    <button onclick="hemant1()">remove color</button>
+    <button onclick="hemant2()">add/remove color</button>
+    <p id="dev">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quas illo natus in saepe inventore placeat, debitis quam cum voluptate? Doloribus, aperiam sit labore eos excepturi dolorem nisi officia doloremque.</p>
+    <p id="kd"> hemant gadagi</p>
+    <button onclick="hemant3()">add/remove text</button>
+
+
+
+    <script>
+        a = document.getElementById("hed")
+        b = document.getElementById("dev")
+        c = document.getElementById("kd")
+
+
+        function hemant() {
+            a.classList.add("x")
+        }
+
+        function hemant1() {
+            a.classList.remove("x")
+        }
+
+        function hemant2() {
+            a.classList.toggle("x")
+        }
+
+        function hemant3() {
+            b.classList.toggle("y")
+
+            c.classList.toggle("z")
+        }
+    </script>
+</body>
+
+</html>
